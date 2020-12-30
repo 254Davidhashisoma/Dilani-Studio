@@ -4,7 +4,7 @@ body {
 }
 
 #banner {
-    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-image: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,13 +13,13 @@ body {
 }
 
 #services {
-    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-image: url("../images/backgrounds/s_image.jpg");
     background-size: cover;
     min-height: 70vh;
 }
 
 #contact {
-    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     min-height: 80vh;
 }
