@@ -74,41 +74,41 @@ input {
 
 /* Start of mediaquery */
 
-    @media only screen and (max-width: 768px) {
-        #what-we-do > .container > .row, #portfolio > .container > .row, #contact > {
+@media only screen and (max-width: 768px) {
+#what-we-do > .container > .row, #portfolio > .container > .row, #contact > {
             flex-direction: column;
             align-content: center;
-        }
+}
 
-        #what-we-do > .container > .row > .col-4, #portfolio > .container > .row > .col-3 {
+#what-we-do > .container > .row > .col-4, #portfolio > .container > .row > .col-3 {
             min-width: 100%;
-        }
+}
 
-        #contact .d-flex {
+#contact .d-flex {
             flex-direction: column;
-        }
+}
 
-        #contact .ml-2 {
+#contact .ml-2 {
             margin-left: 0px !important;
             margin-top: 0.5em;
-        }
+}
 
-        #contact, #services, #banner {
+#contact, #services, #banner {
             height: 55vh;
-        }
+}
 
-        #services {
+#services {
             height: 400px;
-        }
+}
 
-        .btn {
+.btn {
             width: 160px;
             margin: auto;
-        }
+}
 
-        #contact {
+#contact {
             height: 420px;
-        }
+}
 
         
-    }
+}
