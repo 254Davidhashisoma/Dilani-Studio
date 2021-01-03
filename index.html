@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Delani Studio</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="css/bootstrap-grid.css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto&display=swap" rel="stylesheet">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="css/bootstrap-reboot.min.css">
+
+
 </head>
 
 <body>
@@ -98,66 +99,66 @@
             <div class="row text-center text-lg-left">
 
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap1">
-                        <img class="img-fluid" src="./images/portfolio/work4.jpg" alt="">
-                        <div id="overlay1" class="overlay">
-                            <h4 class="project">Project 1</h4>
+                    <a class="d-block mb-4 h-100">
+                        <img class="img-fluid" src="./images/portfolio/work4.jpg" id="wrap1" alt="">
+                        <div id="hide-1" class="overlay">
+                            <h4 id="hide-1">Project 1</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap2">
+                    <a  class="d-block mb-4 h-100" id="wrap2">
                         <img class="img-fluid" src="./images/portfolio/work3.jpg" alt="">
-                        <div id="overlay2" class="overlay">
-                            <h4 class="project">Project 2</h4>
+                        <div id="hide-2" class="overlay">
+                            <h4 id="hide-2">Project 2</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap3">
+                    <a class="d-block mb-4 h-100" id="wrap3">
                         <img class="img-fluid" src="./images/portfolio/work2.jpg" alt="">
-                        <div id="overlay3" class="overlay">
-                            <h4 class="project">Project 3</h4>
+                        <div id="hide-3" class="overlay">
+                            <h4 id="hide-3">Project 3</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap4">
+                    <a  class="d-block mb-4 h-100" id="wrap4">
                         <img class="img-fluid" src="./images/portfolio/work1.jpg" alt="">
-                        <div id="overlay4" class="overlay">
-                            <h4 class="project">Project 4</h4>
+                        <div id="hide-4" class="overlay">
+                            <h4 id="hide-4">Project 4</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap5">
+                    <a class="d-block mb-4 h-100" id="wrap5">
                         <img class="img-fluid" src="./images/portfolio/work5.jpg" alt="">
-                        <div id="overlay5" class="overlay">
-                            <h4 class="project">Project 5</h4>
+                        <div id="hide-5" class="overlay">
+                            <h4 id="hide-5">Project 5</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap6">
-                        <img class="img-fluid" src="../images/portfolio/work6.jpg" alt="">
-                        <div id="overlay6" class="overlay">
-                            <h4 class="project">Project 6</h4>
+                    <a  class="d-block mb-4 h-100" id="wrap6">
+                        <img class="img-fluid" src="./images/portfolio/work6.jpg" alt="">
+                        <div id="hide-6" class="overlay">
+                            <h4 id="hide-6">Project 6</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap7">
+                    <a  class="d-block mb-4 h-100" id="wrap7">
                         <img class="img-fluid" src="./images/portfolio/work7.jpg" alt="">
-                        <div id="overlay7" class="overlay">
-                            <h4 class="project">Project 7</h4>
+                        <div id="hide-7" class="overlay">
+                            <h4 id="hide-7">Project 7</h4>
                         </div>
                     </a>
                 </div>
                 <div class="col-3">
-                    <a href="#" class="d-block mb-4 h-100" id="wrap8">
+                    <a class="d-block mb-4 h-100" id="wrap8">
                         <img class="img-fluid" src="./images/portfolio/work8.jpg" alt="">
-                        <div id="overlay8" class="overlay">
-                            <h4 class="project">Project 8</h4>
+                        <div id="hide-8" class="overlay">
+                            <h4 id="hide-8">Project 8</h4>
                         </div>
                     </a>
                 </div>
@@ -230,8 +231,9 @@
         </div>
     </footer>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script
-        type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/script.js"></script>
+        
 </body>
 
 </html>
