@@ -65,6 +65,12 @@ input {
 #what-we-do img {
     cursor: pointer;
 }
+#what-we-do img:hover {
+    padding: 1rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    color: rgb(26, 163, 140);
+  }
 
 .overlay{
     display: none;
@@ -77,6 +83,7 @@ input {
     top: 0;
     color: black;
 }
+
 
 
 ::placeholder {
@@ -128,6 +135,18 @@ input {
 #contact {
             height: 420px;
 }
-
-        
-}
+.project {
+    position: absolute;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    top: 58%;
+    left: 48%;
+    transform: translate(-50%, -80%);
+    display: none;
+  }
+  
+  .img-fluid:hover{
+      opacity: 0.9;
+  }
+  #hide-1 
